@@ -9,14 +9,16 @@
 </head>
 <body>
   <header class="header">
+    
     <div class="header__top">
     
     </div>
-    <div class="header__middle">
+    
+    <div class="header__middle block">
       <div class="logo">
         <img src="/assets/images/logo-udelta.svg" alt="Udelta - digital marketing" class="logo__image" />
       </div>
-      <nav class="block">
+      <nav class="main-menu-block">
         <ul class="main-menu">
           <li class="main-menu__item">
             <a href="#" class="main-menu__link">Блог</a>
@@ -25,8 +27,13 @@
       </nav>
     </div>
     
+    <div class="header__bottom block">
+      
+    </div>
   </header>
-  
+  <svg>
+    <use xlink:href="/assets/icons/icons-sprite.svg#email"></use>
+  </svg>
   <%- body %>
   <script src="/assets/js/commons.js"></script>
 </body>
