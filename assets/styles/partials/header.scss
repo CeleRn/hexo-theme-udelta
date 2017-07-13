@@ -1,0 +1,23 @@
+.header {
+    &__top {
+
+        min-height: 30px;
+    }
+    &__middle {
+        display: flex;
+    }
+}
+
+.logo {
+    margin: 2em;
+    
+    &__image {
+        height: 60px;
+        width: 143px;
+
+    }
+}
+
+.main-menu {
+    
+}

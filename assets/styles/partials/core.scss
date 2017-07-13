@@ -2,3 +2,8 @@ body {
     background-color: $body-bg;
     color: $body-color;
 }
+
+.block {
+    background-color: $block-bg;
+    box-shadow: $block-shadow;
+}
